@@ -1,0 +1,7 @@
+dic={"pandy":20,"anto":35,"anji":45,"manji":50}
+dic["pandy"]=50
+dic["rasyid"]=100
+del dic["pandy"]
+item=dic.items()
+for i,j in item:
+  print(i,":",j)

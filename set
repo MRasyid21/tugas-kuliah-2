@@ -1,0 +1,6 @@
+set=("arim","fatwa","herul","rasyid")
+set.append("ram")
+set.remove("fatwa")
+set[1]=("fatwa")
+for set in set:
+	print(set)

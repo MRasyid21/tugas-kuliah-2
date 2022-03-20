@@ -1,0 +1,6 @@
+tuple=("hijau","merah","coklat","jingga")
+tuple.append("merah muda")
+tuple.remove("merah")
+tuple[1]=("abu abu")
+for tuple in tuple:
+	print(tuple)

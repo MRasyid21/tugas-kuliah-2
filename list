@@ -1,0 +1,6 @@
+list=["angsa","bebek","pinguin","gajah"]
+list.append("ikan")
+list.remove("angsa")
+list[1]="buaya"
+for list in list:
+  print(list)
